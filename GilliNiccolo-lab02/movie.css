@@ -1,0 +1,143 @@
+/*Niccolò Gilli/ Reti e Sistemi informatici*/
+/*lab02/ codice css*/
+
+body {
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+	font-size: 8pt;
+	font-family: "Verdana", "Tahoma", sans-serif; 
+        border: 0px;
+}
+#banner{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+        background-repeat: repeat-x;
+	height: 50px;
+}
+
+#bannerimg{
+	position: relative;
+        text-align: center;
+}
+
+h1{	
+	font-size: 24pt;
+	font-family: "Tahoma", "Verdana", sans-serif; 
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+        text-align: center;	
+}
+
+#main{
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 10px 10px 10px 10px;
+	width: 800px;
+        overflow: hidden;
+	position: relative;
+	left: 19%;
+}
+
+#destra{
+        float: right;
+        width: 250px;
+        background-color: #A2B964;
+        overflow: hidden;
+}
+
+#sinistra{
+	width: 550px;
+	overflow: hidden;
+}
+
+#rotten{
+	background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+	height: 83px;
+	width: auto;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+        text-align: left;
+}
+ 
+#imgrotten{
+	width: auto; 
+        height: 83px;
+        float: left;
+}
+ 
+#colonnasx{
+        width: 47%;
+        float: left;
+        margin-right: 1%;
+        margin-left: 2%; 
+}
+
+#colonnadx{
+       width: 47%;
+       float: right;
+       margin-right: 2%;
+       margin-left: 1%;
+}
+
+#fondo{
+    	clear: right;
+        width: auto;
+        height: auto;
+        padding: 2px;
+        border: 5px;
+        text-align: center;
+        background-color: #A2B964;
+}
+
+p.p1{
+	font-size: 8pt;        
+        font-weight: bold;
+        background-color:  #E8DC9B;
+	border-width: 2px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 10px 10px 10px 10px; 
+        padding: 8px 8px 8px 8px; 
+        overflow: hidden;            
+}
+
+p.p2{
+     	overflow: hidden; 
+        margin-bottom: 20pt;	
+}
+
+img.imgrecensione{
+	float: left;
+        margin-right: 5px;
+                
+}
+
+img.imgcritico{
+	float: left;
+        margin-right: 5px;                
+}
+
+.corsivo{
+ 	font-style: italic;
+}
+
+#informazioni{
+        padding: 10pt;
+        font-family: "Arial", sans-serif; 
+}
+
+#validators{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        opacity: 0.5;
+}
+
+dd{
+	margin-bottom: 10pt; 
+}
+
+dt{
+    	font-weight: bold;   
+}
+
+img.resized { width: auto; height: 50px; }
